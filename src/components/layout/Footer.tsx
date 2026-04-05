@@ -101,12 +101,14 @@ export function Footer() {
                 />
               </svg>
               <p className="text-sm leading-relaxed text-amber-800">
-                <strong>Aviso importante:</strong> Este site é um guia educativo
-                e operacional. Não somos escritório de advocacia nem
-                representantes do INPI. O pedido oficial de registro é feito
-                diretamente nos sistemas do INPI. As informações aqui
-                apresentadas são de caráter orientativo e não substituem
-                consultoria jurídica especializada.
+                <strong>Aviso importante:</strong> O Registrar Certo é um guia educativo
+                independente. NÃO somos o INPI, NÃO representamos nenhum órgão do governo
+                e NÃO realizamos registros de marca, patente ou desenho industrial.
+                O pedido oficial é feito exclusivamente nos{" "}
+                <a href="https://www.gov.br/inpi" target="_blank" rel="noopener noreferrer" className="underline font-medium">
+                  sistemas oficiais do INPI (gov.br/inpi)
+                </a>.
+                As informações aqui são de caráter orientativo e educacional.
               </p>
             </div>
           </div>

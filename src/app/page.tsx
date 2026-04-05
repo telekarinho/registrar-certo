@@ -132,7 +132,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white px-4 pb-20 pt-16 sm:px-6 lg:px-8 lg:pb-28 lg:pt-24">
         <div className="mx-auto max-w-4xl text-center">
           <span className="mb-4 inline-block rounded-full bg-blue-100 px-4 py-1.5 text-sm font-medium text-blue-700">
-            Guia completo para registro no INPI
+            Guia educativo independente — não somos o INPI
           </span>
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
             Descubra o jeito certo de registrar sua marca, invenção ou visual de
@@ -411,6 +411,22 @@ export default function HomePage() {
               </article>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Disclaimer Section */}
+      <section className="border-t border-gray-200 bg-gray-50 px-4 py-12 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl rounded-xl border border-amber-200 bg-amber-50 p-6 text-center">
+          <h3 className="text-lg font-semibold text-amber-900">Aviso Importante</h3>
+          <p className="mt-2 text-sm leading-relaxed text-amber-800">
+            O <strong>Registrar Certo</strong> é um <strong>guia educativo independente</strong>.
+            Não somos o INPI, não representamos nenhum órgão do governo e não realizamos registros.
+            Todo pedido oficial deve ser feito diretamente nos{" "}
+            <a href="https://www.gov.br/inpi" target="_blank" rel="noopener noreferrer" className="underline font-medium">
+              sistemas oficiais do INPI (gov.br/inpi)
+            </a>.
+            Este conteúdo é apenas informativo e educacional.
+          </p>
         </div>
       </section>
 

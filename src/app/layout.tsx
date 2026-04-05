@@ -7,23 +7,27 @@ import { Footer } from "@/components/layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Registrar Certo | Guia completo para registro no INPI",
+  title: "Registrar Certo | Guia educativo sobre propriedade industrial",
   description:
-    "Descubra o jeito certo de registrar sua marca, invenção ou visual de produto no INPI. Sem confusão, sem juridiquês pesado, com passo a passo simples e claro.",
+    "Guia educativo independente sobre registro de marcas, patentes e desenhos industriais. Este site NÃO é do governo e NÃO representa o INPI. Conteúdo apenas informativo.",
   keywords: [
-    "registro de marca",
-    "INPI",
-    "patente",
+    "guia registro de marca",
+    "como registrar patente",
     "desenho industrial",
-    "propriedade intelectual",
-    "registro de marca no INPI",
+    "propriedade industrial guia",
   ],
   openGraph: {
-    title: "Registrar Certo | Guia completo para registro no INPI",
+    title: "Registrar Certo | Guia educativo independente",
     description:
-      "Descubra o jeito certo de registrar sua marca, invenção ou visual de produto no INPI.",
+      "Guia educativo independente sobre propriedade industrial. NÃO é site do governo.",
     locale: "pt_BR",
     type: "website",
+    siteName: "Registrar Certo - Guia Educativo",
+  },
+  other: {
+    "classification": "Educational",
+    "category": "Education",
+    "rating": "General",
   },
 };
 
@@ -36,6 +40,13 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={inter.className}>
         <div className="flex min-h-screen flex-col">
+          {/* Banner de disclaimer - NÃO é site governamental */}
+          <div className="bg-amber-50 border-b border-amber-200 px-4 py-2 text-center text-sm text-amber-800">
+            <strong>Aviso:</strong> Este é um guia educativo independente. Não somos o INPI e não representamos nenhum órgão do governo.{" "}
+            <a href="https://www.gov.br/inpi" target="_blank" rel="noopener noreferrer" className="underline font-medium hover:text-amber-900">
+              Site oficial do INPI →
+            </a>
+          </div>
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
