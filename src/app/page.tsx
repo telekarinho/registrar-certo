@@ -144,10 +144,10 @@ export default function HomePage() {
           </p>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
-              href="/triagem"
+              href="/comecar"
               className="inline-flex w-full items-center justify-center rounded-xl bg-blue-600 px-8 py-4 text-base font-semibold text-white shadow-lg transition-all hover:bg-blue-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 sm:w-auto"
             >
-              Começar Agora
+              Começar meu registro agora
               <svg
                 className="ml-2 h-5 w-5"
                 fill="none"

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
+  { label: "Começar", href: "/comecar" },
   { label: "Triagem", href: "/triagem" },
   { label: "Marca", href: "/marca" },
   { label: "Patente", href: "/patente" },
