@@ -5,8 +5,8 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { label: "Começar", href: "/comecar" },
-  { label: "Assistente IA", href: "/assistente" },
+  { label: "🤖 Registrar com IA", href: "/ia" },
+  { label: "Guia do INPI", href: "/assistente" },
   { label: "Triagem", href: "/triagem" },
   { label: "Marca", href: "/marca" },
   { label: "Patente", href: "/patente" },
