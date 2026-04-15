@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { ComecarWizard } from "@/components/comecar/ComecarWizard"
+import { ChatIA } from "@/components/assistente/ChatIA"
 
 export const metadata: Metadata = {
   title: "Comece seu registro de marca | Registrar Certo",
@@ -23,6 +24,16 @@ export default function ComecarPage() {
         </div>
         <ComecarWizard />
       </div>
+      <ChatIA
+        contexto="Usuário está no wizard /comecar preenchendo dados iniciais da marca (nome, tipo, CPF/CNPJ, classes Nice)."
+        mensagemInicial="Oi! Estou aqui pra te ajudar no preenchimento. Qualquer dúvida é só perguntar 😊"
+        sugestoes={[
+          "Qual a diferença entre marca mista e nominativa?",
+          "Qual classe Nice devo escolher?",
+          "MEI paga menos taxa?",
+          "Posso registrar com CPF mesmo?",
+        ]}
+      />
     </div>
   )
 }

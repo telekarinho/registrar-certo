@@ -163,10 +163,10 @@ export default function HomePage() {
               </svg>
             </Link>
             <Link
-              href="/triagem"
+              href="/assistente"
               className="inline-flex w-full items-center justify-center rounded-xl border-2 border-gray-300 bg-white px-8 py-4 text-base font-semibold text-gray-700 transition-all hover:border-blue-300 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 sm:w-auto"
             >
-              Fazer Diagnóstico Gratuito
+              🤖 Assistente IA Guiado
             </Link>
           </div>
         </div>
